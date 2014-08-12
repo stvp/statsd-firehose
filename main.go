@@ -82,15 +82,17 @@ func keys(prefix string, count int) chan string {
 func main() {
 	setup()
 
-	runGauges(*gaugeCount, time.Duration(*gaugeInterval)*time.Second)
-	runCounters(*counterCount, time.Duration(*counterInterval)*time.Second)
-
+	// Logging
 	go func() {
 		for _ = range time.Tick(time.Second) {
 			log.Printf("gauges updated: %d", gaugesUpdated)
 			log.Printf("counters updated: %d", countersUpdated)
 		}
 	}()
+
+	// Turn on the firehose
+	go func() { runGauges(*gaugeCount, time.Duration(*gaugeInterval)*time.Second) }()
+	go func() { runCounters(*counterCount, time.Duration(*counterInterval)*time.Second) }()
 
 	// Wait for Ctrl-C
 	<-make(chan bool)
