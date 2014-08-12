@@ -7,6 +7,7 @@ import (
 	"github.com/stvp/gostatsd"
 	"log"
 	"math/rand"
+	"os"
 	"time"
 )
 
@@ -32,6 +33,7 @@ var (
 func setup() {
 	flag.Parse()
 	statsd.Setup(*statsdUrl, *statsdPacketSize)
+	log.SetOutput(os.Stdout)
 }
 
 func runGauges(count int, interval time.Duration) {
