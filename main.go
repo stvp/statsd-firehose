@@ -72,7 +72,7 @@ func keys(prefix string, count int) chan string {
 	c := make(chan string)
 	go func() {
 		for i := 0; i < count; i++ {
-			c <- fmt.Sprintf("%s.%X", i)
+			c <- fmt.Sprintf("%s.%X", prefix, i)
 		}
 		close(c)
 	}()
