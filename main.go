@@ -37,7 +37,7 @@ func setup() {
 }
 
 func runGauges(count int, interval time.Duration) {
-	c, err := clock.New(100*time.Millisecond, interval, 100)
+	c, err := clock.New(100*time.Millisecond, interval)
 	if err != nil {
 		panic(err)
 	}
@@ -53,7 +53,7 @@ func runGauges(count int, interval time.Duration) {
 }
 
 func runCounters(count int, interval time.Duration) {
-	c, err := clock.New(100*time.Millisecond, interval, 100)
+	c, err := clock.New(100*time.Millisecond, interval)
 	if err != nil {
 		panic(err)
 	}
