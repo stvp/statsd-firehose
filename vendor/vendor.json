@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "3x/jTKAU0JFXgv/5vU9Hal2MYuc=",
+			"path": "github.com/stvp/clock",
+			"revision": "7c6c06e061f01e60e3866b88f13162a772471e7d",
+			"revisionTime": "2015-01-31T03:51:42Z"
+		},
+		{
+			"checksumSHA1": "gnswHH+yGshJxei3v5m5p/VjUMI=",
+			"path": "github.com/stvp/gostatsd",
+			"revision": "bcf29aa7f1796f296ace7000eca2a29be7dfcbff",
+			"revisionTime": "2015-10-22T20:47:26Z"
+		},
+		{
+			"checksumSHA1": "ROJgSFvgDgjSKp2Y3Zg5mc5+Zys=",
+			"path": "github.com/stvp/slug",
+			"revision": "5ab8191bb1fecafb3e73d3dc71cc81585ec57e5d",
+			"revisionTime": "2015-09-28T22:15:49Z"
+		},
+		{
+			"checksumSHA1": "ZQdHbB9VYCXwQ+9/CmZPhJv0+SM=",
+			"path": "golang.org/x/text/internal/gen",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		},
+		{
+			"checksumSHA1": "47nwiUyVBY2RKoEGXmCSvusY4Js=",
+			"path": "golang.org/x/text/internal/triegen",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		},
+		{
+			"checksumSHA1": "Yd5wMObzagIfCiKLpZbtBIrOUA4=",
+			"path": "golang.org/x/text/internal/ucd",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"path": "golang.org/x/text/transform",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		},
+		{
+			"checksumSHA1": "ZbYsJjfj1rPbHN+0baD1rg09PXQ=",
+			"path": "golang.org/x/text/unicode/cldr",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		},
+		{
+			"checksumSHA1": "Anof4bt0AU+Sa3R8Rq0KBnlpbaQ=",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4",
+			"revisionTime": "2017-04-25T18:31:26Z"
+		}
+	],
+	"rootPath": "github.com/stvp/statsd-firehose"
+}
